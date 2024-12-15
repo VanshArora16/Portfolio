@@ -227,7 +227,7 @@ section {
 		}
 
 		.image {
-			border-radius: var(--br-sm-2);
+			border-radius: 70%;
 			height: 85%;
 			width: 68%;
 			margin-left: 4rem;
@@ -239,12 +239,13 @@ section {
 
 			img {
 				align-items: center	;
-				width: 100%;
+				width: 90%;
 				align-self: center;
 				object-fit: cover;
+				border-radius: 70%;
 				transition: all .4s ease-in-out;
 				filter: grayscale(100%);
-				max-width: 100%; /* To make the image responsive */
+				max-width: 100%	; /* To make the image responsive */
    				 height: auto;
 				
 				&:hover {
@@ -625,17 +626,18 @@ section {
 
 				&:hover {
 					background-color: var(--color-secondary);
-
+					
 					i {
 						color: var(--color-primary);
 					}
 				}
-
+				
 				i {
 					display: flex;
 					align-items: center;
 					justify-content: center;
 					font-size: 1.3rem;
+
 				}
 			}
 		}
